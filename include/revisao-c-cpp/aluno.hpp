@@ -25,8 +25,8 @@ using scn::scan;   // NOLINT
 // NAO APAGUE OU MODIFIQUE O CABEÇALHO DA FUNÇÃO ABAIXO
 int exercicio0(std::string entrada) {
   // SOLUCAO: modifique o return 1 para return 0
-  return 1;
-  // return 0;
+  //return 1;
+  return 0;
 }
 
 // resolução exercício 1 (verifique se está correto)
