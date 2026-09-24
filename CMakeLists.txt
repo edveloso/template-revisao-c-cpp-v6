@@ -1,6 +1,11 @@
 cmake_minimum_required(VERSION 3.22)
-#
+
+# Allow older third-party CMake projects to configure with modern CMake.
+set(CMAKE_POLICY_VERSION_MINIMUM 3.5 CACHE STRING
+    "Minimum CMake policy version for third-party dependencies")
+
 project(revisao-c-cpp-project LANGUAGES CXX VERSION 0.0.1)
+
 #
 set (CMAKE_CXX_STANDARD 20)
 set (CMAKE_CXX_STANDARD_REQUIRED ON)
